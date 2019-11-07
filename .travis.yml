@@ -6,5 +6,6 @@ install:
   - pip3 install colored
 
 script:
-  - make test
+  - python3 -m coverage run test_rpn.py
+  - python3 -m coverage report 
 

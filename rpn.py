@@ -29,6 +29,13 @@ def calculate(myarg):
         raise TypeError("Too many parameters")
     return stack.pop()
 
+def extrafunction():
+    print("extra func with no coverage")
+    print("extra func with no coverage")
+    print("extra func with no coverage")
+    print("extra func with no coverage")
+    print("extra func with no coverage")
+
 def main():
     while True:
         result = calculate(input("rpn calc> "))
