@@ -8,6 +8,6 @@ install:
 
 script:
   - python3 test_rpn.py
- # - coverage run test_rpn.py
- # - coverage report 
+  - coverage run test_rpn.py
+  - coverage report 
 
