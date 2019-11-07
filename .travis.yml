@@ -4,10 +4,10 @@ python:
 
 install:
   - pip3 install colored
+  - pip3 install coverage
 
 
 script:
-  - python3 test_rpn.py
   - coverage run test_rpn.py
   - coverage report 
 
